@@ -54,13 +54,13 @@ public class Constants
     public static final Closure<Boolean> CALL_FALSE = new Closure<Boolean>(null){ public Boolean call(Object o){ return false; }};
 
     // urls
-    public static final String MC_JAR_URL       = "https://web.archive.org/web/9999999999999id_/https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar";
-    public static final String MC_SERVER_URL    = "https://web.archive.org/web/9999999999999id_/https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar";
-    public static final String MCP_URL          = "https://web.archive.org/web/9999999999999id_/https://files.minecraftforge.net/fernflower_temporary.zip";
-    public static final String ASSETS_URL       = "https://web.archive.org/web/9999999999999id_/https://resources.download.minecraft.net";
-    public static final String LIBRARY_URL      = "https://web.archive.org/web/9999999999999id_/https://libraries.minecraft.net/";
+    public static final String MC_JAR_URL       = "https://web.archive.org/web/0id_/https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar";
+    public static final String MC_SERVER_URL    = "https://web.archive.org/web/0id_/https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar";
+    public static final String MCP_URL          = "https://files.minecraftforge.net/fernflower_temporary.zip";
+    public static final String ASSETS_URL       = "https://web.archive.org/web/0id_/https://resources.download.minecraft.net";
+    public static final String LIBRARY_URL      = "https://web.archive.org/web/0id_/https://libraries.minecraft.net/";
     public static final String FORGE_MAVEN      = "https://maven.minecraftforge.net";
-    public static final String ASSETS_INDEX_URL = "https://web.archive.org/web/9999999999999id_/https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json";
+    public static final String ASSETS_INDEX_URL = "https://web.archive.org/web/0id_/https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json";
 
     public static final String LOG              = ".gradle/gradle.log";
     public static final String ASSETS_INDEX     =  "legacy";
