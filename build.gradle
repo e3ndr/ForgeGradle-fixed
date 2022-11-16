@@ -18,7 +18,12 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/repositories/snapshots/"
     }
-    mavenCentral()
+    maven {
+        // This version of Gradle's mavenCentral() uses 
+        // http://repo1.maven.org/maven2, which is no longer supported.
+        name = "maven-central"
+        url = "https://repo1.maven.org/maven2"
+    }
 }
 
 jar {
